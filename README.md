@@ -1853,7 +1853,7 @@ await suki.relayMessage(
 
 1. By default, wa does not have link generation when sent from the web
 2. Baileys has a function to generate the content for these link previews
-3. To enable this function's usage, add `link-preview-js` as a dependency to your project with `yarn add link-preview-js`
+3. To enable this function's usage, add `unfurl.js` as a dependency to your project with `yarn add unfurl.js`
 4. Send a link:
 ```ts
 await suki.sendMessage(
